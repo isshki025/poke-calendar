@@ -6,21 +6,6 @@ import Pokemon from './Pokemon';
 
 const Calendar = () => {
   const [allPokemons, setAllPokemons] = useState([]);
-  const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon?limit=30");
-
-  // useEffect(() => {
-  //   const getAllPokemons = () => {
-  //     fetch(url)
-  //       .then(res => res.json())
-  //       .then(data => {
-  //         setUrl(data.next);
-  //         createPokemonObject(data.results);
-  //       });
-  //   };
-
-  //   // コンポーネントがマウントされたときにのみgetAllPokemonsを呼び出す
-  //   getAllPokemons();
-  // }, []);
 
   const createPokemonObject = useCallback((results) => {
     const allPromises = results.map(pokemon => {
@@ -83,7 +68,7 @@ const Calendar = () => {
         // }
 
         const pokemonData = await response.json();
-        const _image = pokemonData.sprites.other["official-artwork"].front_default;
+        const _image = pokemonData.sprites.front_default;
         const _type = pokemonData.types[0].type.name;
         const japanese = await translateToJapanese(pokemonData.name, _type);
         newPokemons.push({
@@ -99,9 +84,9 @@ const Calendar = () => {
         const defaultPokemonUrl = `https://pokeapi.co/api/v2/pokemon/132`;
         const defaultResponse = await fetch(defaultPokemonUrl);
         const defaultPokemonData = await defaultResponse.json();
-        const _defaultImage = defaultPokemonData.sprites.other["official-artwork"].front_default;
+        const _defaultImage = defaultPokemonData.sprites.front_default;
         newPokemons.push({
-          id: id, // ディットのID
+          id: id,
           name: "Not Found",
           image: _defaultImage,
           type: "unknown",
