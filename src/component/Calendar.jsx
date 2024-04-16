@@ -78,8 +78,8 @@ const Calendar = () => {
         const defaultPokemonUrl = `https://pokeapi.co/api/v2/pokemon/132`;
         const defaultResponse = await fetch(defaultPokemonUrl);
         const defaultPokemonData = await defaultResponse.json();
-        const _defaultImage = defaultPokemonData.sprites.front_default;
-        newPokemons.push({
+        const _defaultImage = defaultPokemonData.sprites.other["official-artwork"].front_default;
+        return {
           id: id,
           name: "Not Found",
           image: _defaultImage,
