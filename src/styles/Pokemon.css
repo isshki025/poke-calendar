@@ -22,6 +22,18 @@
   width: 6em;
   text-align: center;
   border-radius: 5px;
+  border: 1px solid;
+  padding-left: 1em;
+  position: relative;
+}
+.pokemon_type::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1.5em;
+  height: 1.5em;
+  display: block;
+  background-size: contain;
 }
 
 .pokemon_name{
@@ -29,69 +41,124 @@
 }
 
 .rock {
-  background-color: rgb(148, 81, 81);
+  border-color: #bcb889;
+}
+.rock::before{
+  background-image: url("../../public/type-markers/rock.png");
 }
 
 .ghost {
   background-color: rgb(247, 247, 247);
 }
+.ghost::before {
+  background-image: url("../../public/type-markers/ghost.png");
+}
 
 .electric {
   background-color: rgb(255, 255, 161);
+}
+.electric::before {
+  background-image: url("../../public/type-markers/electric.png");
 }
 
 .bug {
   background-color: #F6D6A7;
 }
+.bug::before {
+  background-image: url("../../public/type-markers/bug.png");
+}
 
 .poison {
   background-color: #e0a7f6;
+}
+.poison::before {
+  background-image: url("../../public/type-markers/poison.png");
 }
 
 .normal {
   background-color: #F4F4F4;
 }
+.normal::before {
+  background-image: url("../../public/type-markers/normal.png");
+}
 
 .fairy {
   background-color: rgba(255, 192, 203, 0.863);
+}
+.fairy::before {
+  background-image: url("../../public/type-markers/fairy.png");
 }
 
 .fire {
   background-color: #FBE3DF;
 }
+.fire::before {
+  background-image: url("../../public/type-markers/fire.png");
+}
 
 .grass {
   background-color: #E2F9E1;
+}
+.grass::before {
+  background-image: url("../../public/type-markers/grass.png");
 }
 
 .water {
   background-color: #E0F1FD;
 }
+.water::before {
+  background-image: url("../../public/type-markers/water.png");
+}
 
 .dark {
   background-color: #9E9169;
+}
+.dark::before {
+  background-image: url("../../public/type-markers/dark.png");
 }
 
 .psychic {
   background-color: #FC5FD0;
 }
+.psychic::before {
+  background-image: url("../../public/type-markers/psychic.png");
+}
 
 .ground {
   background-color: #BC7B3D;
+}
+.ground::before {
+  background-image: url("../../public/type-markers/ground.png");
 }
 
 .steel {
   background-color: #6C676E;
 }
+.steel::before {
+  background-image: url("../../public/type-markers/steel.png");
+}
 
 .fighting {
   background-color: #DE911F;
+}
+.fighting::before {
+  background-image: url("../../public/type-markers/fighting.png");
 }
 
 .ice {
   background-color: #92C3F4;
 }
+.ice::before {
+  background-image: url("../../public/type-markers/ice.png");
+}
 
 .dragon {
   background-color: #E08B2B;
+}
+.dragon::before {
+  background-image: url("../../public/type-markers/dragon.png");
+}
+
+.unknown{
+  padding: 0;
 }
