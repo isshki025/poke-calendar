@@ -2840,8 +2840,16 @@
       "en": "Pumpkaboo"
   },
   {
+    "ja": "バケッチャ",
+    "en": "pumpkaboo-average"
+  },
+  {
       "ja": "パンプジン",
       "en": "Gourgeist"
+  },
+  {
+    "ja": "パンプジン",
+    "en": "gourgeist-average"
   },
   {
       "ja": "カチコール",
@@ -2872,6 +2880,10 @@
       "en": "Zygarde"
   },
   {
+    "ja": "ジガルデ",
+    "en": "zygarde-50"
+  },
+  {
       "ja": "ディアンシー",
       "en": "Diancie"
   },
@@ -2883,17 +2895,6 @@
       "ja": "ボルケニオン",
       "en": "Volcanion"
   },
-
-  {
-    "_comment" : [
-      "https://gist.github.com/PonDad/93922f63c3143489e30c3716d3d176d2",
-      "ここから下が新しく追加したもの",
-      "ja , en のプロパティを要れていないとエラーになるので注意！"
-    ],
-    "ja": "",
-    "en": ""
-  },
-
   {
     "ja": "カモネギ",
     "en": "farfetchd"
@@ -2917,5 +2918,394 @@
   {
     "ja": "ミノマダム",
     "en": "wormadam-plant"
-  }
+  },
+  {
+    "ja": "モクロー",
+    "en": "rowlet"
+},
+{
+    "ja": "フクスロー",
+    "en": "dartrix"
+},
+{
+    "ja": "ジュナイパー",
+    "en": "decidueye"
+},
+{
+    "ja": "ニャビー",
+    "en": "litten"
+},
+{
+    "ja": "ニャヒート",
+    "en": "torracat"
+},
+{
+    "ja": "ガオガエン",
+    "en": "incineroar"
+},
+{
+    "ja": "アシマリ",
+    "en": "popplio"
+},
+{
+    "ja": "オシャマリ",
+    "en": "brionne"
+},
+{
+    "ja": "アシレーヌ",
+    "en": "primarina"
+},
+{
+    "ja": "ツツケラ",
+    "en": "pikipek"
+},
+{
+    "ja": "マギアナ",
+    "en": "magearna"
+},
+{
+    "ja": "マーシャドー",
+    "en": "marshadow"
+},
+{
+    "ja": "ベベノム",
+    "en": "poipole"
+},
+{
+    "ja": "アーゴヨン",
+    "en": "naganadel"
+},
+{
+    "ja": "ツンデツンデ",
+    "en": "stakataka"
+},
+{
+    "ja": "ズガドーン",
+    "en": "blacephalon"
+},
+{
+    "ja": "ゼラオラ",
+    "en": "zeraora"
+},
+{
+    "ja": "メルタン",
+    "en": "meltan"
+},
+{
+    "ja": "メルメタル",
+    "en": "melmetal"
+},
+{
+    "ja": "サルノリ",
+    "en": "grookey"
+},
+{
+    "ja": "バチンキー",
+    "en": "thwackey"
+},
+{
+    "ja": "ゴリランダー",
+    "en": "rillaboom"
+},
+{
+    "ja": "ヒバニー",
+    "en": "scorbunny"
+},
+{
+    "ja": "ラビフット",
+    "en": "raboot"
+},
+{
+    "ja": "エースバーン",
+    "en": "cinderace"
+},
+{
+    "ja": "メッソン",
+    "en": "sobble"
+},
+{
+    "ja": "ジメレオン",
+    "en": "drizzile"
+},
+{
+    "ja": "インテレオン",
+    "en": "inteleon"
+},
+{
+    "ja": "ホシガリス",
+    "en": "skwovet"
+},
+{
+    "ja": "ヨクバリス",
+    "en": "greedent"
+},
+{
+    "ja": "ココガラ",
+    "en": "rookidee"
+},
+{
+    "ja": "アオガラス",
+    "en": "corvisquire"
+},
+{
+    "ja": "アーマーガア",
+    "en": "corviknight"
+},
+{
+    "ja": "サッチムシ",
+    "en": "blipbug"
+},
+{
+    "ja": "レドームシ",
+    "en": "dottler"
+},
+{
+    "ja": "イオルブ",
+    "en": "orbeetle"
+},
+{
+    "ja": "クスネ",
+    "en": "nickit"
+},
+{
+    "ja": "フォクスライ",
+    "en": "thievul"
+},
+{
+    "ja": "ヒメンカ",
+    "en": "gossifleur"
+},
+{
+    "ja": "ワタシラガ",
+    "en": "eldegoss"
+},
+{
+    "ja": "ウールー",
+    "en": "wooloo"
+},
+{
+    "ja": "ガチグマ",
+    "en": "ursaluna"
+},
+{
+    "ja": "イダイトウ",
+    "en": "basculegion-male"
+},
+{
+    "ja": "オオニューラ",
+    "en": "sneasler"
+},
+{
+    "ja": "ハリーマン",
+    "en": "overqwil"
+},
+{
+    "ja": "ラブトロス",
+    "en": "enamorus-incarnate"
+},
+{
+    "ja": "ニャオハ",
+    "en": "sprigatito"
+},
+{
+    "ja": "ニャローテ",
+    "en": "floragato"
+},
+{
+    "ja": "マスカーニャ",
+    "en": "meowscarada"
+},
+{
+    "ja": "ホゲータ",
+    "en": "fuecoco"
+},
+{
+    "ja": "アチゲータ",
+    "en": "crocalor"
+},
+{
+    "ja": "ラウドボーン",
+    "en": "skeledirge"
+},
+{
+    "ja": "クワッス",
+    "en": "quaxly"
+},
+{
+    "ja": "ウェルカモ",
+    "en": "quaxwell"
+},
+{
+    "ja": "ウェーニバル",
+    "en": "quaquaval"
+},
+{
+    "ja": "グルトン",
+    "en": "lechonk"
+},
+{
+    "ja": "パフュートン",
+    "en": "oinkologne"
+},
+{
+    "ja": "タマンチュラ",
+    "en": "tarountula"
+},
+{
+    "ja": "ワナイダー",
+    "en": "spidops"
+},
+{
+    "ja": "マメバッタ",
+    "en": "nymble"
+},
+{
+    "ja": "エクスレッグ",
+    "en": "lokix"
+},
+{
+    "ja": "パモ",
+    "en": "pawmi"
+},
+{
+    "ja": "パモット",
+    "en": "pawmo"
+},
+{
+    "ja": "パーモット",
+    "en": "pawmot"
+},
+{
+    "ja": "ワッカネズミ",
+    "en": "tandemaus"
+},
+{
+    "ja": "イッカネズミ",
+    "en": "maushold"
+},
+{
+    "ja": "パピモッチ",
+    "en": "fidough"
+},
+{
+    "ja": "バウッツェル",
+    "en": "dachsbun"
+},
+{
+    "ja": "ミニーブ",
+    "en": "smoliv"
+},
+{
+    "ja": "オリーニョ",
+    "en": "dolliv"
+},
+{
+    "ja": "オリーヴァ",
+    "en": "arboliva"
+},
+{
+    "ja": "イキリンコ",
+    "en": "squawkabilly"
+},
+{
+    "ja": "チオンジェン",
+    "en": "wo-chien"
+},
+{
+    "ja": "パオジアン",
+    "en": "chien-pao"
+},
+{
+    "ja": "ディンルー",
+    "en": "ting-lu"
+},
+{
+    "ja": "イーユイ",
+    "en": "chi-yu"
+},
+{
+    "ja": "トドロクツキ",
+    "en": "roaring-moon"
+},
+{
+    "ja": "テツノブジン",
+    "en": "iron-valiant"
+},
+{
+    "ja": "コライドン",
+    "en": "koraidon"
+},
+{
+    "ja": "ミライドン",
+    "en": "miraidon"
+},
+{
+    "ja": "ウネルミナモ",
+    "en": "walking-wake"
+},
+{
+    "ja": "テツノイサハ",
+    "en": "iron-leaves"
+},
+{
+    "ja": "カミッチュ",
+    "en": "dipplin"
+},
+{
+    "ja": "チャデス",
+    "en": "poltchageist"
+},
+{
+    "ja": "ヤバソチャ",
+    "en": "sinistcha"
+},
+{
+    "ja": "イイネイヌ",
+    "en": "okidogi"
+},
+{
+    "ja": "マシマシラ",
+    "en": "munkidori"
+},
+{
+    "ja": "キチキギス",
+    "en": "fezandipiti"
+},
+{
+    "ja": "オーガポン",
+    "en": "ogerpon"
+},
+{
+    "ja": "ブリジュラス",
+    "en": "archaludon"
+},
+{
+    "ja": "カミツオロチ",
+    "en": "hydrapple"
+},
+{
+    "ja": "ウガツホムラ",
+    "en": "gouging-fire"
+},
+{
+    "ja": "タケルライコ",
+    "en": "raging-bolt"
+},
+{
+    "ja": "テツノイワオ",
+    "en": "iron-boulder"
+},
+{
+    "ja": "テツノカシラ",
+    "en": "iron-crown"
+},
+{
+    "ja": "テラパゴス",
+    "en": "terapagos"
+},
+{
+    "ja": "モモワロウ",
+    "en": "pecharunt"
+}
+
 ]

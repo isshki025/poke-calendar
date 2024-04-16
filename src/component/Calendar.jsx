@@ -63,7 +63,7 @@ const Calendar = () => {
         const pokemonUrl = `https://pokeapi.co/api/v2/pokemon/${id}`;
         const response = await fetch(pokemonUrl);
         const pokemonData = await response.json();
-        const _image = pokemonData.sprites.other["official-artwork"].front_default;
+        const _image = pokemonData.sprites.front_default;
         const _type = pokemonData.types[0].type.name;
         const japanese = await translateToJapanese(pokemonData.name, _type);
         return {
@@ -78,8 +78,8 @@ const Calendar = () => {
         const defaultPokemonUrl = `https://pokeapi.co/api/v2/pokemon/132`;
         const defaultResponse = await fetch(defaultPokemonUrl);
         const defaultPokemonData = await defaultResponse.json();
-        const _defaultImage = defaultPokemonData.sprites.other["official-artwork"].front_default;
-        return {
+        const _defaultImage = defaultPokemonData.sprites.front_default;
+        newPokemons.push({
           id: id,
           name: "Not Found",
           image: _defaultImage,
