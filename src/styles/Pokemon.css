@@ -5,6 +5,7 @@
   flex-direction: column;
   border: 2px solid;
   width: 200px;
+  padding-bottom: 1em;
 }
 .pokemon_number{
   border-bottom: 1px solid;
@@ -125,14 +126,14 @@
 }
 
 .ground {
-  background-color: #BC7B3D;
+  background-color: #d0b38e;
 }
 .ground::before {
   background-image: url("../../public/type-markers/ground.png");
 }
 
 .steel {
-  background-color: #6C676E;
+  background-color: #b7e1f9;
 }
 .steel::before {
   background-image: url("../../public/type-markers/steel.png");
