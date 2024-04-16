@@ -49,7 +49,7 @@
 }
 
 .ghost {
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(196 165 199);
 }
 .ghost::before {
   background-image: url("../../public/type-markers/ghost.png");
@@ -63,10 +63,18 @@
 }
 
 .bug {
-  background-color: #F6D6A7;
+  background-color: #eaead6;
 }
 .bug::before {
   background-image: url("../../public/type-markers/bug.png");
+}
+
+.flying {
+  background-color: #deeeff;
+}
+
+.flying::before {
+  background-image: url("../../public/type-markers/flying.png");
 }
 
 .poison {
@@ -84,7 +92,7 @@
 }
 
 .fairy {
-  background-color: rgba(255, 192, 203, 0.863);
+  background-color: rgb(255 227 255);
 }
 .fairy::before {
   background-image: url("../../public/type-markers/fairy.png");
@@ -112,14 +120,14 @@
 }
 
 .dark {
-  background-color: #9E9169;
+  background-color: #a79a9b;
 }
 .dark::before {
   background-image: url("../../public/type-markers/dark.png");
 }
 
 .psychic {
-  background-color: #FC5FD0;
+  background-color: #ffdee5;
 }
 .psychic::before {
   background-image: url("../../public/type-markers/psychic.png");
@@ -133,14 +141,14 @@
 }
 
 .steel {
-  background-color: #b7e1f9;
+  background-color: #dcdcdc;
 }
 .steel::before {
   background-image: url("../../public/type-markers/steel.png");
 }
 
 .fighting {
-  background-color: #DE911F;
+  background-color: #f2e7d8;
 }
 .fighting::before {
   background-image: url("../../public/type-markers/fighting.png");
@@ -154,7 +162,7 @@
 }
 
 .dragon {
-  background-color: #E08B2B;
+  background-color: #cacef0;
 }
 .dragon::before {
   background-image: url("../../public/type-markers/dragon.png");
